@@ -1,0 +1,4 @@
+FROM almalinux
+LABEL AUTHOR="SRIHARI"\
+      VILLAGE="AP"\
+      LANGUAGE="TELUGU"
