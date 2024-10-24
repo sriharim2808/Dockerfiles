@@ -4,7 +4,7 @@
 1. ADD can download the file directly from internet to the container.
 2. ADD can untar/unzip the file directly into the container.
 #  difference b/w ADD & COPY?
- 1. COPY is only copy the files from local to container.
+ 1. COPY is only copy the files from local to docker image.
  2. ADD command also do the copy files apart from that 2 extra capabilities is there:
   --> ADD can download the file directly from internet to the container.
   --> ADD can untar/unzip the file directly into the container.
