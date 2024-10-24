@@ -8,3 +8,5 @@
  2. ADD command also do the copy files apart from that 2 extra capabilities is there:
   --> ADD can download the file directly from internet to the container.
   --> ADD can untar/unzip the file directly into the container.
+
+Remote URLs: ADD can download files directly from URLs, whereas COPY cannot. If you need to download something from the web during your Docker build, you must use ADD.
